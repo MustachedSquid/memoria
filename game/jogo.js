@@ -78,7 +78,7 @@ function buttonPress(id, clas){
 
                 /*document.getElementById(prevWins[i]).innerHTML = ' ';*/
                 document.getElementById(prevWins[i]).style.backgroundColor = "transparent";
-                document.getElementById(prevWins[i]).style.border = "none";
+                document.getElementById(prevWins[i]).style.borderColor = "transparent";
                 /*document.getElementById(prevWins[i]).style.width = "128px";
                 /*document.getElementById(prevWins[i]).style.height = "131px";*/
             }
@@ -89,7 +89,7 @@ function buttonPress(id, clas){
         }
 
         if(win===true){
-            alert("GG!");
+            alert("You beat the game with "+ clicks + " clicks!");
          /*   document.getElementById("win").style.display = "inline";
             document.getElementById("high").style.display = "inline";
             document.getElementById("high").ct.value = clicks;*/
